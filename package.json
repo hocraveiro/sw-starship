@@ -1,0 +1,30 @@
+{
+  "name": "sw-starship",
+  "version": "1.0.0",
+  "description": "A console application using SWAPI to calculate the number of stops for resupply is required to cover a certain distance.",
+  "main": "./src/index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest"
+  },
+  "bin": {
+    "sw-starship": "./src/main.js"
+  },
+  "keywords": [
+    "SW",
+    "API",
+    "starship refuel calculate"
+  ],
+  "author": "Henrique Craveiro <hocraveiro@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "clui": "^0.3.6",
+    "commander": "^2.16.0",
+    "node-fetch": "^2.1.2",
+    "ora": "^3.0.0",
+    "swapi-node": "^0.4.3"
+  },
+  "devDependencies": {
+    "jest": "^23.4.1"
+  }
+}
