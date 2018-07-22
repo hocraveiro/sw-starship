@@ -45,15 +45,6 @@ describe('Starship stop calculator', () => {
     })
 
     describe('getStarshipByPage', () => {
-      // const API = 'https://swapi.co/api';
-      // let spy;
-      // beforeEach(() => {
-      //   spy = jest.spyOn(global, 'fetch');
-      // })
-  
-      // afterEach(() => {
-      //   spy.mockRestore();
-      // })
       test('should be call sendRequest', () => {
         const spyy = jest.spyOn(Swapi, 'sendRequest');
 
