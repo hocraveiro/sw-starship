@@ -18,7 +18,6 @@
   "author": "Henrique Craveiro <hocraveiro@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "clui": "^0.3.6",
     "commander": "^2.16.0",
     "node-fetch": "^2.1.2",
     "ora": "^3.0.0",

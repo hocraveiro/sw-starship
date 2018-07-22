@@ -32,6 +32,12 @@ sw-starship --help
 
 ```
 
+## Authors
+
+| ![Henrique Craveiro](https://avatars0.githubusercontent.com/u/2580381?s=125)|
+|:---------------------:|
+|  [Henrique Craveiro](https://github.com/hocraveiro/)   |
+
 
 ## License
 
